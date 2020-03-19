@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "weixin-info-dialog": "/pages/components/wxInfoDialog"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "default",
+  "navigationBarTitleText": "个人信息",
+  "usingComponents": {
+    "reset-info": "/pages/components/resetInfo"
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"点书吧","entryPagePath":"pages/common/welcome.html","page":{"pages/common/welcome.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{"weixin-info-dialog":"/pages/components/wxInfoDialog"}}},"pages/find/find.html":{"window":{"enablePullDownRefresh":true,"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/common/login.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/common/register.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/find/chooseClass.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"分类","usingComponents":{}}},"pages/find/moreBook.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"更多推荐","usingComponents":{}}},"pages/find/classBook.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"奇幻玄幻","usingComponents":{}}},"pages/common/book/story.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{"share-pop":"/pages/components/sharePop","recharge-pop":"/pages/components/rechargePop"}}},"pages/common/book/storyDetail.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{"weixin-info-dialog":"/pages/components/wxInfoDialog","share-pop":"/pages/components/sharePop"}}},"pages/common/book/otherUserInfo.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/common/book/chapters.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"全部章节","usingComponents":{}}},"pages/common/book/editReview.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"编辑书评","usingComponents":{"uni-rate":"/pages/components/uni-rate"}}},"pages/common/book/commontDetail.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"书评详情","usingComponents":{}}},"pages/common/book/allComments.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"全部书评","usingComponents":{}}},"pages/bookshelf/bookshelf.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/bookshelf/searchBook.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/bookshelf/search.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"搜索","usingComponents":{}}},"pages/common/chooseSex.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/common/boyChoose.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/common/girlChoose.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/common/userAgreement.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"用户协议","usingComponents":{}}},"pages/common/userSecretProtect.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"用户隐私保护政策","usingComponents":{}}},"pages/welfare/welfare.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"福利","usingComponents":{}}},"pages/me/me.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/me/myWallet.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"我的钱包","usingComponents":{}}},"pages/me/reset.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"设置","usingComponents":{}}},"pages/me/gengxin.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"在线更新","usingComponents":{}}},"pages/me/feedback.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"建议反馈","usingComponents":{}}},"pages/me/recharge.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"充值","usingComponents":{}}},"pages/me/message.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"消息通知","usingComponents":{}}},"pages/me/myComment.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"我的评论","usingComponents":{}}},"pages/me/page/myReply.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"我的回复","usingComponents":{}}},"pages/me/page/share.html":{"window":{"navigationBarTitleText":"分享","titleNView":{"type":"transparent"},"usingComponents":{"share-pop":"/pages/components/sharePop"}}},"pages/me/page/shareDetail.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"推荐详情","usingComponents":{}}},"pages/me/myStar.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/me/myThumbsup.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"我的点赞","usingComponents":{}}},"pages/me/page/withdraw.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"余额提现","usingComponents":{"pay-info":"/pages/components/payInfo"}}},"pages/me/myFocus.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"我的关注","usingComponents":{}}},"pages/me/page/myFans.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"我的粉丝","usingComponents":{}}},"pages/me/page/myIssue.html":{"window":{"navigationStyle":"custom","titleNView":false,"usingComponents":{}}},"pages/me/page/resetPsd.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"修改密码","usingComponents":{}}},"pages/me/page/resetPsdTwo.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"重置密码","usingComponents":{}}},"pages/me/page/userInfo.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"个人信息","usingComponents":{"reset-info":"/pages/components/resetInfo"}}},"pages/me/page/resetName.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"修改昵称","usingComponents":{}}},"pages/me/page/resetPhone.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"修改手机号","usingComponents":{}}},"pages/me/page/findPsd.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"忘记密码","usingComponents":{}}},"pages/me/page/exchange.html":{"window":{"navigationStyle":"default","navigationBarTitleText":"兑换书币","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"点书","navigationBarBackgroundColor":"#BD3037","backgroundColor":"#F8F8F8","navigationStyle":"default"}},"tabBar":{"color":"#8a8a8a","selectedColor":"#bd3037","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/bookshelf/bookshelf.html","text":"书架","iconPath":"static/book.png","selectedIconPath":"static/book-active.png"},{"pagePath":"pages/find/find.html","text":"发现","iconPath":"static/find.png","selectedIconPath":"static/find-active.png"},{"pagePath":"pages/welfare/welfare.html","text":"福利","iconPath":"static/welfare.png","selectedIconPath":"static/welfare-active.png"},{"pagePath":"pages/me/me.html","text":"我的","iconPath":"static/me.png","selectedIconPath":"static/me-active.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/common/welcome","pages/find/find","pages/common/login","pages/common/register","pages/find/chooseClass","pages/find/moreBook","pages/find/classBook","pages/common/book/story","pages/common/book/storyDetail","pages/common/book/otherUserInfo","pages/common/book/chapters","pages/common/book/editReview","pages/common/book/commontDetail","pages/common/book/allComments","pages/bookshelf/bookshelf","pages/bookshelf/searchBook","pages/bookshelf/search","pages/common/chooseSex","pages/common/boyChoose","pages/common/girlChoose","pages/common/userAgreement","pages/common/userSecretProtect","pages/welfare/welfare","pages/me/me","pages/me/myWallet","pages/me/reset","pages/me/gengxin","pages/me/feedback","pages/me/recharge","pages/me/message","pages/me/myComment","pages/me/page/myReply","pages/me/page/share","pages/me/page/shareDetail","pages/me/myStar","pages/me/myThumbsup","pages/me/page/withdraw","pages/me/myFocus","pages/me/page/myFans","pages/me/page/myIssue","pages/me/page/resetPsd","pages/me/page/resetPsdTwo","pages/me/page/userInfo","pages/me/page/resetName","pages/me/page/resetPhone","pages/me/page/findPsd","pages/me/page/exchange"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.6.5","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

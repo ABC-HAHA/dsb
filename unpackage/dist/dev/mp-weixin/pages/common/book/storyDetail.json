@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "weixin-info-dialog": "/pages/components/wxInfoDialog",
+    "share-pop": "/pages/components/sharePop"
+  }
+}

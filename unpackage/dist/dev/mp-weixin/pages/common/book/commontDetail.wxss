@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.comment-detail {
+  width: 100%;
+  background-color: #fff;
+}
+.comment-detail .cred {
+    color: red !important;
+}
+.comment-detail .appraise {
+    width: 100%;
+}
+.comment-detail .appraise .ap-title {
+      width: 90%;
+      padding: 20rpx 0;
+      margin: 0 auto;
+      line-height: 40rpx;
+      border-bottom: 1rpx solid #f0f0f0;
+      font-size: 32rpx;
+      color: #515151;
+}
+.comment-detail .appraise .ap-title .icon-edit {
+        color: red;
+        font-size: 28rpx;
+}
+.comment-detail .appraise .ap-no-content {
+      width: 100%;
+      height: 100rpx;
+      text-align: center;
+      line-height: 100rpx;
+      font-size: 32rpx;
+      color: #515151;
+}
+.comment-detail .ap-content {
+    width: 90%;
+    margin: 0 auto;
+}
+.comment-detail .ap-content .item {
+      width: 100%;
+      padding: 20rpx 0;
+      border-bottom: 1rpx solid #eee;
+}
+.comment-detail .ap-content .item .f-16 {
+        font-size: 32rpx;
+        color: #333;
+}
+.comment-detail .ap-content .item .f-14 {
+        font-size: 28rpx;
+        color: #666;
+}
+.comment-detail .ap-content .item .f-12 {
+        font-size: 24rpx;
+        color: #999;
+        margin-left: 10rpx;
+}
+.comment-detail .ap-content .item .ac-title {
+        overflow: hidden;
+        line-height: 60rpx;
+}
+.comment-detail .ap-content .item .ac-title .logo {
+          width: 80rpx;
+          height: 60rpx;
+}
+.comment-detail .ap-content .item .ac-title .logo image {
+            width: 60rpx;
+            height: 60rpx;
+            border-radius: 50%;
+}
+.comment-detail .ap-content .item .ac-info {
+        overflow: hidden;
+        margin-top: 20rpx;
+}
+.comment-detail .ap-content .item .ac-info .icon {
+          margin-left: 30rpx;
+}
+.comment-detail .ap-content .item .acc-title {
+        margin: 10rpx 0;
+        font-weight: 600;
+}
+.comment-detail .ap-content .item .acc-content {
+        color: #515151;
+        margin: 20rpx 0;
+}
+.comment-detail .footer {
+    width: 100%;
+    padding: 20rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #fff;
+    border-top: 1rpx solid #eee;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.comment-detail .footer textarea {
+      display: inline-block;
+      width: 86%;
+      height: 60rpx;
+      line-height: 30rpx;
+      font-size: 28rpx;
+      caret-color: #BD3037;
+      padding: 10rpx 20rpx;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      background-color: #f0f0f0;
+      border-radius: 10rpx;
+}
+.comment-detail .footer .submit {
+      width: 14%;
+      height: 60rpx;
+      display: inline-block;
+      line-height: 60rpx;
+      font-size: 60rpx;
+      color: #BD3037;
+      border: none;
+      outline: none;
+      padding: 0;
+      background-color: transparent;
+      text-align: center;
+}
+.comment-detail .footer .submit::after {
+        border: none;
+}
+

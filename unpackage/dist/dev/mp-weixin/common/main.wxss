@@ -1,0 +1,345 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*每个页面公共css */
+@font-face {
+  font-family: 'iconfont';  /* project id 1159150 */
+  src: url('https://at.alicdn.com/t/font_1159150_9ajvd39yt6n.eot');
+  src: url('https://at.alicdn.com/t/font_1159150_9ajvd39yt6n.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1159150_9ajvd39yt6n.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1159150_9ajvd39yt6n.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1159150_9ajvd39yt6n.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1159150_9ajvd39yt6n.svg#iconfont') format('svg');
+}
+/*NEW*/
+@font-face {
+  font-family: 'iconfont';  /* project id 1293028 */
+  src: url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.eot');
+  src: url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.svg#iconfont') format('svg');
+}
+/* 刘海屏状态栏高度适配 */
+@font-face {
+  font-family: 'iconfont';  /* project id 1293028 */
+  src: url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.eot');
+  src: url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1293028_ngag06ugzz.svg#iconfont') format('svg');
+}
+.h-22 {
+  width: 100%;
+  height: 25px;
+}
+.top {
+  top: 25px;
+}
+.to-top {
+  top: 64rpx;
+}
+.c-red {
+  color: #BD3037;
+}
+.c-orange {
+  color: #ff9744;
+}
+.c-blue {
+  color: #65bffb;
+}
+.c-green {
+  color: #75d16e;
+}
+.c-yellow {
+  color: yellow;
+}
+.bg-red {
+  background-color: #BD3037;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.h3 {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #000;
+}
+.h4 {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #515151;
+}
+.span-gray {
+  font-size: 28rpx;
+  color: #999;
+}
+.font-big {
+  font-size: 32rpx;
+}
+.font-middle {
+  font-size: 28rpx;
+}
+.font-small {
+  font-size: 24rpx;
+}
+.text-over-1 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-over-2 {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.text-over-3 {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.icon {
+  font-family: 'iconfont';
+}
+.icon-phone:before {
+  content: '\E65F';
+}
+.icon-qq:before {
+  content: '\E6B4';
+}
+.icon-weixin:before {
+  content: '\E73B';
+}
+.icon-search:before {
+  content: '\E61A';
+}
+.icon-more:before {
+  content: '\E60D';
+}
+.icon-paihang:before {
+  content: '\E7BC';
+  color: #fed468;
+  font-size: 58rpx;
+}
+.icon-fenlei:before {
+  content: '\E609';
+  color: #79bdfa;
+  font-size: 58rpx;
+}
+.icon-wanben:before {
+  content: '\E601';
+  color: #9bd694;
+  font-size: 58rpx;
+}
+.icon-tuijian:before {
+  content: '\E77A';
+  color: #ff8989;
+  font-size: 58rpx;
+}
+.icon-person:before{
+  content: '\E65E';
+}
+.icon-next:before {
+  content: '\E64A';
+}
+.icon-wallet:before {
+  content: '\E6E7';
+}
+.icon-recharge:before {
+  content: '\E604';
+}
+.icon-recommend:before {
+  content: '\E660';
+}
+.icon-message:before {
+  content: '\E628';
+}
+.icon-clearStore:before {
+  content: '\E616';
+}
+.icon-reset:before {
+  content: '\E61B';
+}
+.icon-feedback:before {
+  content: '\E6CF';
+}
+.icon-support:before {
+  content: '\E619';
+}
+.icon-back:before {
+  content: '\E62B';
+}
+.icon-cry-face:before {
+  content: '\E6C0';
+}
+.icon-photo:before {
+  content: '\E6AB';
+}
+.icon-camera:before {
+  content: '\E61C';
+}
+.icon-male:before {
+  content: '\E618';
+  color: #04a1e2;
+}
+.icon-female:before {
+  content: '\E617';
+  color: #cf3ec6;
+}
+.icon-red-packet:before {
+  content: '\E623';
+}
+.icon-weixinbangding:before {
+  content: '\E69E0';
+}
+.icon-qqbangding:before {
+  content: '\E6320';
+}
+.icon-touxiang:before {
+  content: '\E6000';
+}
+.icon-xiugainicheng:before {
+  content: '\E6400';
+}
+.icon-shujia:before {
+  content: '\E6180';
+}
+.icon-gift:before {
+  content: '\E649';
+}
+.icon-small-person:before {
+  content: '\E673';
+}
+.icon-small-file:before {
+  content: '\E613';
+}
+.icon-small-book:before {
+  content: '\E605';
+}
+.icon-small-phone:before {
+  content: '\E603';
+}
+.icon-enjoy:before {
+  content: '\E602';
+}
+.icon-small-money:before {
+  content: '\E62C';
+  color: yellow;
+}
+.icon-small-grow:before {
+  content: '\E635';
+  color: #65bffb;
+}
+.icon-boy:before {
+  content: '\E648';
+}
+.icon-girl:before {
+  content: '\E64B';
+}
+.icon-dot:before {
+  content: '\EC1E';
+}
+.icon-withdraw:before {
+  content: '\E688';
+}
+.icon-book-city:before {
+  content: '\E61E';
+}
+.icon-book:before {
+  content: '\E809';
+}
+.icon-share:before {
+  content: '\E61D';
+}
+.icon-prev-step:before {
+  content: '\E60E';
+}
+.icon-next-step:before {
+  content: '\E60F';
+}
+.icon-download:before {
+  content: '\E675';
+}
+.icon-more-vertical:before {
+  content: '\E670';
+}
+.icon-star-circle:before {
+  content: '\E63F';
+}
+.icon-menu:before {
+  content: '\E62A';
+}
+.icon-comment:before {
+  content: '\E606';
+}
+.icon-down:before {
+  content: '\E695';
+}
+.icon-edit:before {
+  content: '\E608';
+}
+.icon-thumbs-up:before {
+  content: '\E627';
+}
+.icon-frends-circle:before {
+  content: '\E73C';
+}
+.icon-send:before {
+  content: '\E652';
+}
+.icon-minus:before {
+  content: '\E611';
+}
+.icon-add:before {
+  content: '\E63D';
+}
+.icon-dot:before {
+  content: '\E621';
+}
+.icon-refresh:before {
+  content: '\E61F';
+}
+.icon-history:before {
+  content: '\E718';
+}
+.icon-close:before {
+  content: '\E620';
+}
+.icon-wx-pay:before {
+  content: '\E607';
+  color: #6bcc03;
+}
+.icon-zfb-pay:before {
+  content: '\E622';
+  color: #06b4fd;
+}
+

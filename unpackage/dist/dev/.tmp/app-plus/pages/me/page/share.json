@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分享",
+  "titleNView": {
+    "type": "transparent"
+  },
+  "usingComponents": {
+    "share-pop": "/pages/components/sharePop"
+  }
+}

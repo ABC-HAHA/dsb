@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "share-pop": "/pages/components/sharePop",
+    "recharge-pop": "/pages/components/rechargePop"
+  }
+}

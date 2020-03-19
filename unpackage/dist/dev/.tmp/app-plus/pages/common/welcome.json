@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "weixin-info-dialog": "/pages/components/wxInfoDialog"
+  }
+}

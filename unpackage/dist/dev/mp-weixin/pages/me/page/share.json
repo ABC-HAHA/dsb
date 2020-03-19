@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "分享",
+  "usingComponents": {
+    "share-pop": "/pages/components/sharePop"
+  }
+}

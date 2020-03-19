@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "default",
+  "navigationBarTitleText": "余额提现",
+  "usingComponents": {
+    "pay-info": "/pages/components/payInfo"
+  }
+}

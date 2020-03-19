@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "default",
+  "navigationBarTitleText": "编辑书评",
+  "usingComponents": {
+    "uni-rate": "/pages/components/uni-rate"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "pages": [
+    "pages/common/welcome",
+    "pages/find/find",
+    "pages/common/login",
+    "pages/common/register",
+    "pages/find/chooseClass",
+    "pages/find/moreBook",
+    "pages/find/classBook",
+    "pages/common/book/story",
+    "pages/common/book/storyDetail",
+    "pages/common/book/otherUserInfo",
+    "pages/common/book/chapters",
+    "pages/common/book/editReview",
+    "pages/common/book/commontDetail",
+    "pages/common/book/allComments",
+    "pages/bookshelf/bookshelf",
+    "pages/bookshelf/searchBook",
+    "pages/bookshelf/search",
+    "pages/common/chooseSex",
+    "pages/common/boyChoose",
+    "pages/common/girlChoose",
+    "pages/common/userAgreement",
+    "pages/common/userSecretProtect",
+    "pages/welfare/welfare",
+    "pages/me/me",
+    "pages/me/myWallet",
+    "pages/me/reset",
+    "pages/me/feedback",
+    "pages/me/recharge",
+    "pages/me/message",
+    "pages/me/myComment",
+    "pages/me/page/myReply",
+    "pages/me/page/share",
+    "pages/me/page/shareDetail",
+    "pages/me/myStar",
+    "pages/me/myThumbsup",
+    "pages/me/page/withdraw",
+    "pages/me/myFocus",
+    "pages/me/page/myFans",
+    "pages/me/page/myIssue",
+    "pages/me/page/resetPsd",
+    "pages/me/page/resetPsdTwo",
+    "pages/me/page/userInfo",
+    "pages/me/page/resetName",
+    "pages/me/page/resetPhone",
+    "pages/me/page/findPsd",
+    "pages/me/page/exchange"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "点书",
+    "navigationBarBackgroundColor": "#BD3037",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#bd3037",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/bookshelf/bookshelf",
+        "text": "书架",
+        "iconPath": "static/book.png",
+        "selectedIconPath": "static/book-active.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "static/find.png",
+        "selectedIconPath": "static/find-active.png"
+      },
+      {
+        "pagePath": "pages/welfare/welfare",
+        "text": "福利",
+        "iconPath": "static/welfare.png",
+        "selectedIconPath": "static/welfare-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/me-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
